@@ -1,0 +1,47 @@
+theme               = "cocoa"
+baseurl             = "http://ecarrara.me/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "pt-BR"
+layoutdir           = "layouts"
+publishdir          = "public"
+author              = "Erle Carrara"
+title               = "Erle Carrara"
+pygmentsuseclasses  = true
+disqusshortname     = "ecarrara"
+pluralizelisttitles = false
+googleAnalytics     = "UA-5345806-18"
+
+[permalinks]
+fixed = ":title/"
+blog  = "blog/:slug/"
+
+[[menu.main]]
+name                   = "Blog"
+weight                 = -120
+identifier             = "blog"
+url                    = "/blog/"
+
+[[menu.main]]
+name                   = "Sobre"
+weight                 = -110
+identifier             = "sobre"
+url                    = "/sobre/"
+
+[params]
+author                 = "Erle Carrara"
+cachebuster            = true
+dateform               = "02/01/2006"
+dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+description            = "A vida é finita."
+email                  = "carrara.erle@gmail.com"
+extracssfiles          = [ "/css/ecarrara.css" ]
+faviconfile            = "img/leaf.ico"
+github                 = "//github.com/ecarrara"
+highlightjs            = true
+lang                   = "pt-BR"
+# linkedin               = "//linkedin.com/in/you"
+noshowreadtime         = true
+selfintro              = "Um programador comum."
+twitter                = "//twitter.com/ecarrara"

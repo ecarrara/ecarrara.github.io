@@ -1,0 +1,7 @@
+.header {
+    padding-top: 0 !important;
+}
+
+.header .name h1 {
+    text-transform: none;
+}
